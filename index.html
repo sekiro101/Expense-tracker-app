@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expensetrack.com</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1>Expense Tracker</h1>
+
+    <h2>Add A New Item:</h2>
+
+    <form action=""> 
+        <div class="first">
+            <span class="name">Name:</span>
+            <input type="text" class="text" placeholder="Insert purchased item">
+        </div>
+
+        <div class="second">
+            
+            <span id="date">Date:</span>
+            <input type="date"  class="date">
+
+            <span id="amount">Amount:</span>
+            <input type="text" placeholder="How much was spent?" class="amount">
+        </div>
+
+        
+        <div id="button">
+            <input type="submit" value="Add Expense" id="submit">
+        </div>
+    </form>
+
+<div id="third">
+    <table width="70%">
+        <thead>
+        <tr><th>Name</th>
+            <th>Date</th>
+            <th>Amount</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr class ="row">
+            <td  colspan="3">No expenses added yet</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+    <script src="Expense script.js"></script>
+</body>
+</html> 
